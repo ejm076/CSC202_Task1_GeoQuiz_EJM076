@@ -25,7 +25,7 @@ class CheatActivity : AppCompatActivity() {
         answerTextView = findViewById(R.id.answer_text_view)
         showAnswerButton = findViewById(R.id.show_answer_button)
 
-        // if user already revealed before a rotation keep result set
+        // if user already revealed before a rotation keep result sett
         if (answerShown) {
             showAnswerText()
             setAnswerShownResult(true)
